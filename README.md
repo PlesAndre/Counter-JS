@@ -38,6 +38,14 @@ If you want to restart from zero just press the "reset" button .</p>
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" width="100px">
 </div>
 
+### GUIDE 
+
+<p>No specific requirements, simply an internet connection and a few minutes to play with the counter.
+HAVE FUN!!! <br>
+Below is the link where you can access the site.
+<br>
+https://64f2362eafced019f1b53c79--effulgent-dodol-8511fe.netlify.app/</p>
+
 ### BROWSER SUPPORT
 
 <a href="http://www.google.com/chrome/"><img height="48" src="https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_128x128.png" alt="Chrome"></a> | <a href="http://firefox.com"><img height="48" src="https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_128x128.png" alt="Firefox"></a> | <a href="http://windows.microsoft.com/en-GB/internet-explorer/download-ie"><img height="48" src="https://raw.github.com/alrra/browser-logos/master/src/archive/internet-explorer_9-11/internet-explorer_9-11_128x128.png" alt="Internet Explorer"></a> | <a href="http://opera.com"><img height="48" src="https://raw.github.com/alrra/browser-logos/master/src/opera/opera_128x128.png" alt="Opera"></a> | <a href="http://www.apple.com/safari/"><img height="48" src="https://raw.github.com/alrra/browser-logos/master/src/safari/safari_128x128.png" alt="Safari"></a>
