@@ -9,7 +9,7 @@
 
 <!-- PROJECT IMAGE -->
 <div align="center">
-  <img src = "img/counter.jpeg" width="250px">
+  <img src = "img/counter.png" width="250px">
 </div>
 
 <br>
