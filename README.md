@@ -25,7 +25,7 @@ I am currently taking the `"Full Stack Developer"` course on Start2Impact and th
 ## QUICK START
 
 <p>This is a simple counter developed with JavaScript where inside you can play by incrementing and decrementing the value within the display. 
-The color of the values changes according to the number greater than or equal to 1, so blue, and less than or equal to -1, so red. <br>
+The color of the values changes according to the number greater than or equal to 0, so blue, and less than or equal to 0, so red. <br>
 If you want to restart from zero just press the "reset" button .</p>
 
 ### BUILT WITH
