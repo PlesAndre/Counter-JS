@@ -28,17 +28,41 @@ I am currently taking the `"Full Stack Developer"` course on Start2Impact and th
 The color of the values changes according to the number greater than or equal to 0, so blue, and less than or equal to 0, so red. <br>
 If you want to restart from zero just press the "reset" button .</p>
 
-### BUILT WITH
+<br>
+
+## GOALS 
+
+<p>Main goals to achieved in this project:</p>
+<ul>
+  <li>Creation of the display and buttons using JavaScript</li>
+  <li>Correct implementation of counter operation</li>
+  <li>[OPTIONAL] Adding elements that can charaterize the counter, example, value color change, dynamic and responsive buttons.</li>
+</ul>
+
+<br>
+
+## COUNTER FUNCTION 
+
+<p>Simple function where inside we identify the main value ( i = 0 ).
+For each button we use the addEventListener method and call them with their assigned const.
+Inside each function we have the following code blocks that must be executed whenever the user clicks on the buttons.
+With the (innerHTML = i) method, the value inside the display changes based on which button is clicked.</p>
+
+<br>
+
+## BUILT WITH
 
 <p>Languages used for counter creation:</p>
 
 <div float="left">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="100px">
   <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" width="100px">
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" width="100px">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="100px">
 </div>
 
-### GUIDE 
+<br>
+
+## GUIDE 
 
 <p>No specific requirements, simply an internet connection and a few minutes to play with the counter.
 HAVE FUN!!! <br>
