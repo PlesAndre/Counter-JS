@@ -48,6 +48,8 @@ For each button we use the addEventListener method and call them with their assi
 Inside each function we have the following code blocks that must be executed whenever the user clicks on the buttons.
 With the (innerHTML = i) method, the value inside the display changes based on which button is clicked.</p>
 
+<img src= "img/function.png" width="400px" >
+
 <br>
 
 ## BUILT WITH
@@ -65,10 +67,8 @@ With the (innerHTML = i) method, the value inside the display changes based on w
 ## GUIDE 
 
 <p>No specific requirements, simply an internet connection and a few minutes to play with the counter.
-HAVE FUN!!! <br>
-Below is the link where you can access the site.
-<br>
-https://64f2362eafced019f1b53c79--effulgent-dodol-8511fe.netlify.app/</p>
+HAVE FUN!!!</p>
+<p>Here is the <a href = https://counterdevjs.netlify.app/>link</a> that takes you directly to the counter</p> 
 
 ### BROWSER SUPPORT
 
