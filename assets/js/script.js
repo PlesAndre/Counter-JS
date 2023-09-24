@@ -1,75 +1,79 @@
-"use strict"
+'use strict';
 
-// DISPLAY ELEMENT
+// FIXMEç
+// 4- file README più esplicativo riguardo alla struttura del codice.
+// Optional, rifare la presentazione, correggere i due link nella diapositiva finale (prendere spunto su google)
 
-const createDisplay = document.createElement("div")
-document.getElementById("box-counter").appendChild(createDisplay);
-createDisplay.classList.add("value-display");
-const container = document.createElement("p");
-const value = document.createTextNode("0");
+// Display element
+
+const createDisplay = document.createElement('div');
+document.getElementById('box-counter').appendChild(createDisplay);
+createDisplay.classList.add('value-display');
+const container = document.createElement('p');
+const value = document.createTextNode('0');
 container.appendChild(value);
 createDisplay.appendChild(container);
 
+// Function change color
+const changeColor = function () {
+  if (count > 0) {
+    container.classList.add('positive');
+  } else if (count < 0) {
+    container.classList.add('negative');
+  } else {
+    container.classList.remove('positive');
+    container.classList.remove('negative');
+  }
+};
 
-// IMPLEMENT BUTTONS
+// Implement buttons
 
-const counterButtons = document.createElement("div");
-counterButtons.classList.add("counter-buttons");
-createDisplay.after(counterButtons) 
+const counterButtons = document.createElement('div');
+counterButtons.classList.add('counter-buttons');
+createDisplay.after(counterButtons);
 
+// Decrement button
 
-// DECREMENT BUTTON 
-
-const decrementButton = document.createElement("button");
-const decrementText = document.createTextNode("-");
-decrementButton.classList.add("decrement-button");
+const decrementButton = document.createElement('button');
+const decrementText = document.createTextNode('-');
+decrementButton.classList.add('decrement-button');
 decrementButton.appendChild(decrementText);
 counterButtons.appendChild(decrementButton);
 
+// Reset button
 
-// RESET BUTTON 
-
-const resetButton = document.createElement("button");
-const resetText = document.createTextNode("RESET");
-resetButton.classList.add("reset-button");
+const resetButton = document.createElement('button');
+const resetText = document.createTextNode('RESET');
+resetButton.classList.add('reset-button');
 resetButton.appendChild(resetText);
 counterButtons.appendChild(resetButton);
 
+// Increment button
 
-// INCREMENET BUTTON
-
-const incrementButton = document.createElement("button");
-const incrementText = document.createTextNode("+");
-incrementButton.classList.add("increment-button");
+const incrementButton = document.createElement('button');
+const incrementText = document.createTextNode('+');
+incrementButton.classList.add('increment-button');
 incrementButton.appendChild(incrementText);
-counterButtons.appendChild(incrementButton); 
+counterButtons.appendChild(incrementButton);
 
+// Counter function
 
-// COUNTER FUNCTION 
+let count = 0;
 
-let i = 0; 
-
-decrementButton.addEventListener("click", () =>{
-    i--;
-    container.innerHTML = i;
-    if(i < 0) {
-        container.style.color = "red";
-    }
+decrementButton.addEventListener('click', () => {
+  count--;
+  container.innerHTML = count;
+  changeColor();
 });
 
-resetButton.addEventListener("click", () => {
-    i = 0;
-    container.innerHTML = i;
-    container.style.color = "black";
+resetButton.addEventListener('click', () => {
+  count = 0;
+  container.innerHTML = count;
+  changeColor();
 });
 
-incrementButton.addEventListener("click", () => {
-    i++;
-    container.innerHTML = i;
-    if(i > 0) {
-        container.style.color = "blue";
-    };
+incrementButton.addEventListener('click', () => {
+  count++;
+  container.innerHTML = count;
+  changeColor();
 });
-
-
-
